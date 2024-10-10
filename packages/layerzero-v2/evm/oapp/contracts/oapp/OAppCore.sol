@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.20;
 
-import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
+import { Ownable } from "openzeppelin-contracts/access/Ownable.sol";
 import { IOAppCore, ILayerZeroEndpointV2 } from "./interfaces/IOAppCore.sol";
 
 /**

@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.20;
 
-import { SafeCast } from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import { SafeCast } from "openzeppelin-contracts/utils/math/SafeCast.sol";
 import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import { Proxied } from "hardhat-deploy/solc_0.8/proxy/Proxied.sol";
 

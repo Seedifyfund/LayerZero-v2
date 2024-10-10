@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.20;
 
-import { IERC165 } from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
-import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
+import { IERC165 } from "openzeppelin-contracts/utils/introspection/IERC165.sol";
+import { Ownable } from "openzeppelin-contracts/access/Ownable.sol";
 
 import { IMessageLib, MessageLibType } from "./interfaces/IMessageLib.sol";
 import { IMessageLibManager, SetConfigParam } from "./interfaces/IMessageLibManager.sol";

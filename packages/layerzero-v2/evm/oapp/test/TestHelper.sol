@@ -3,7 +3,7 @@
 pragma solidity ^0.8.18;
 
 import { Test } from "forge-std/Test.sol";
-import { DoubleEndedQueue } from "@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol";
+import { DoubleEndedQueue } from "openzeppelin-contracts/utils/structs/DoubleEndedQueue.sol";
 
 import { UlnConfig, SetDefaultUlnConfigParam } from "@layerzerolabs/lz-evm-messagelib-v2/contracts/uln/UlnBase.sol";
 import { SetDefaultExecutorConfigParam, ExecutorConfig } from "@layerzerolabs/lz-evm-messagelib-v2/contracts/SendLibBase.sol";

@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.20;
 
-import { SafeCast } from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import { SafeCast } from "openzeppelin-contracts/utils/math/SafeCast.sol";
 
 import { ExecutorOptions } from "@layerzerolabs/lz-evm-protocol-v2/contracts/messagelib/libs/ExecutorOptions.sol";
 
